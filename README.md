@@ -2,10 +2,21 @@
 
 This is the Express backend for [React Jobly Frontend](https://github.com/pasha-log/react-jobly-frontend).
 
+## Tools used:
+
+* Express
+* Postgres
+* morgan
+* cors
+* Authentication/validation: bcrypt, JSON Web Token, JSON Schema
+
 ## Getting started
 
 Install all dependencies with `npm i`  
-The project uses PostgreSQL as its RDBMS.  
+The project uses PostgreSQL as its RDBMS. To create and seed the test and development databases, simply run the following command:
+
+    psql < jobly.sql
+
 To run this project:
     
     node server.js
