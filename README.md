@@ -51,7 +51,7 @@ This route is used to get another auth token. Send the username and password of 
 
 ### /companies
 
-Routes corresponding with the companies table in the database. Each company uses its `handle` as its primary key, and thus its identifer in the routes.
+Routes corresponding with the companies table in the database. Each company uses its `handle` as its primary key, and thus its identifier in the routes.
 
 #### GET /companies
 ##### Auth Required: None
